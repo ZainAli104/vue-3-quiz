@@ -29,6 +29,8 @@ const store = createStore({
         state.name = payload.name
         state.email = payload.email
         state.phone = payload.number
+
+        // localStorage.setItem('userInfo')
     }
   },
 });
